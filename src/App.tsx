@@ -38,7 +38,7 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#FDFCFB] text-[#2A241E] font-sans selection:bg-[#EAE1D3] selection:text-[#2A241E]">
+    <div className="min-h-screen bg-[#FDFCFB] text-[#2A241E] font-sans selection:bg-[#EAE1D3] selection:text-[#2A241E] overflow-x-hidden">
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-[#FDFCFB]/90 backdrop-blur-xl border-b border-[#F2EDE7] px-6 md:px-12 py-5">
         <div className="max-w-[1400px] mx-auto flex justify-between items-center">
@@ -185,7 +185,7 @@ export default function App() {
                   className="text-5xl md:text-7xl font-serif font-light mb-10 leading-[1.1] tracking-tighter"
                 >
                   Miejsce spotkań, <br />
-                  <span className="italic whitespace-nowrap">kawy i duszy</span>
+                  <span className="italic">kawy i duszy</span>
                 </motion.h2>
                 <motion.div 
                   variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } }}
@@ -223,16 +223,6 @@ export default function App() {
                 <img src={IMAGES[1]} alt="Interior" className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" referrerPolicy="no-referrer" />
               </motion.div>
               <div className="space-y-6 pt-12">
-                 <motion.div
-                  initial={{ opacity: 0, scale: 1.05 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 1.5, delay: 0.2 }}
-                  whileHover={{ y: -5 }}
-                  className="rounded-[4rem] overflow-hidden aspect-square shadow-xl"
-                >
-                  <img src={IMAGES[2]} alt="Coffee" className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" referrerPolicy="no-referrer" />
-                </motion.div>
                 <motion.div
                   initial={{ opacity: 0, scale: 1.05 }}
                   whileInView={{ opacity: 1, scale: 1 }}
