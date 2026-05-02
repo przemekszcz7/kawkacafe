@@ -18,12 +18,11 @@ import {
 } from "lucide-react";
 
 const IMAGES = [
-  "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/500781122_122094947750895442_1019933273630624304_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2a1932&_nc_ohc=frwo_aUpcJoQ7kNvwERw51P&_nc_oc=Adp8pM0X1GAUPXHnXz4f4odYGhHc21F_8eG0OdQ4Q1fIg13ORcCZGv5oZz40X4ZKmy0&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=nMFMia4kqWz8FUli65zK8w&_nc_ss=7b2a8&oh=00_Af2lhuH_NE3cFY7n8SknuzptonkXrK9g0kU-GquEz1ISPg&oe=69F524B9",
-  "https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/516192005_122120066402895442_5230176665853330905_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7b2446&_nc_ohc=sBsxlb0mE20Q7kNvwGhrDVZ&_nc_oc=AdoB-BjMPLLaLjkWbNdAAlzrSiaiwEpsB89uzJGrj524HJ5-XY5vQnAMKvmvMBdfV6Y&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=Ulw8tmGV79xFHIFnpTVQpA&_nc_ss=7b2a8&oh=00_Af2bAdn0bCmULEff2JkupUAPsc_RoeZvyYEBUdUIRTVMOw&oe=69F5498D",
-  "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/509144150_122115052178895442_4964595068503369752_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=7b2446&_nc_ohc=eBmdCP94hQkQ7kNvwFiXv4i&_nc_oc=AdqFTIyIo_nq4oF61hdjFALvzvz5KnOh7qhE09MlUqRgFhzbOz6aJLKSMYJPd10xh4M&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=UlmMM4GqrRTM5M7xil2CBw&_nc_ss=7b2a8&oh=00_Af3IVSrtwAxAGR3ycsMwQcYzFgUzIV0MQqJuT0CaMi0Kjg&oe=69F53665",
-  "https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/509325909_122115052124895442_8947502840260286700_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=7b2446&_nc_ohc=p_h6QNuwDv8Q7kNvwH8ZEru&_nc_oc=AdpRrN8eebImR_QZBGJ7Et2I2desgKCudNqyh1hvAq7L7nkWS3dAaB_vnbAQoceRVfc&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=R5VhgGRPkCecFBWzh_ycag&_nc_ss=7b2a8&oh=00_Af2_aVmT8pX1dO3EXtyN211WjGzkG1zDC50ovYF_-Quqsw&oe=69F545C3",
-  "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/510985260_122115052112895442_7526153533955864411_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=7b2446&_nc_ohc=jvzIORZjYXQQ7kNvwHDx_yx&_nc_oc=AdqyXkW_ra7Z6XJbNr8jlFJ_jMuBARc1kA2N3IUjJT1nOI2WAWHinXD9ZY-V92WdCLs&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=5POXii6VHyaSEdsso25n6A&_nc_ss=7b2a8&oh=00_Af3K9k-V5Ej5RqPySzcIlLYlfics7Rpci261ib9kzxuOJw&oe=69F53B3A",
-  "https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/499860471_122095612472895442_5371722646204166159_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=7b2446&_nc_ohc=uOKURCJHScUQ7kNvwGH42kH&_nc_oc=Adom6I-iM_GZau86jYWYnqwFHdK_9Gh1wkSGbCrhAFAszRVwe-t75flJKdp56k0f7-s&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=z0n7dAyHKX94d0YhDUNfbQ&_nc_ss=7b2a8&oh=00_Af1zEYvWRrnGAZCWcmMqqMv99sfnxFe0XQ5l04DdYCDvMQ&oe=69F53319"
+  "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/500781122_122094947750895442_1019933273630624304_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2a1932&_nc_ohc=7CtBgPeIlAcQ7kNvwF_FE84&_nc_oc=AdpbuaE3NJy9pz1xAn0cn-QuN18XQlgMl3A3bMbj1a_5r2DfgsKb9lp3CiX7rICp6yA&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=AFd3S2YyBXRanQkmIxuCLA&_nc_ss=7b2a8&oh=00_Af6QeOyhPZ4f73qdzYSla9JewuyOtYlIO965HTbgMCsrsg&oe=69FB83F9",
+  "https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/516192005_122120066402895442_5230176665853330905_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7b2446&_nc_ohc=kM0qT8du620Q7kNvwEVs2DN&_nc_oc=AdofQU87zF9rcUa2aawoeVwvrbIh7o-tGv1OjYw46OXppcR3h9Uq6qd6_kZhiTKz8xA&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=N1z9POyd1qbermZz5BuAxQ&_nc_ss=7b2a8&oh=00_Af5ln0AuSRoY4ENySge4CAQ-VF2j4E8xjnPjLirNIANRXg&oe=69FBA8CD",
+  "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/509144150_122115052178895442_4964595068503369752_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=7b2446&_nc_ohc=YefmEeLpz7cQ7kNvwGHdFyn&_nc_oc=AdrOCi_YQq6FzEHoGECgcLkSFjmg-KIhLBhik1nwtm4x_An3_R5pEsyidfLr_bL7C6M&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=had_5B5_AFGxY14N3gSIjQ&_nc_ss=7b2a8&oh=00_Af7lq261Ov1x5g6p-bjLzH0jLT0iBVtDAZAeS6mivt1n4w&oe=69FB95A5",
+  "https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/509325909_122115052124895442_8947502840260286700_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=7b2446&_nc_ohc=VbnyYd5lK04Q7kNvwH0tk9d&_nc_oc=AdrzMs4FEjyfXYtDyzftFvUr_iSJCt7eQc-z691hGVTSL_LIpS9dV9qKVnPHmXk2ZIk&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=5WvMvagZxD1Tshg27oMCLw&_nc_ss=7b2a8&oh=00_Af5-0u2A9_8phdMjY-xD2DHwvfzzuP0LiscIOJy7wEl2qw&oe=69FBA503",
+  "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/510985260_122115052112895442_7526153533955864411_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=7b2446&_nc_ohc=G9Q7c2_ODeIQ7kNvwEg8v8v&_nc_oc=AdoQEVgEx9rbPMTv2ZUGeNio81HC5I1dTCd9lIUvBvzBt5EXS5M0Er9quHBiekhmFZY&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=VsQ-3LXjqeP7-keIF-JQDw&_nc_ss=7b2a8&oh=00_Af4tRtMQSTNTdtxGbFR6ILFq08uJgzpBW4oic6yuQOWihw&oe=69FB9A7A"
 ];
 
 export default function App() {
@@ -292,7 +291,7 @@ export default function App() {
                <p className="text-sm font-medium tracking-widest uppercase">Atmosfera</p>
             </div>
           </motion.div>
-          {[IMAGES[5], IMAGES[1], IMAGES[0]].map((img, i) => (
+          {[IMAGES[2], IMAGES[1], IMAGES[0]].map((img, i) => (
             <motion.div
               key={i}
               variants={{
